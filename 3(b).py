@@ -1,0 +1,10 @@
+import numpy as np
+x = np.array((3,5,7))
+y = np.array((5,7,9))
+hstack = np.hstack((x,y))
+vstack = np.vstack((x,y))
+print("Original arrays:")
+print(x)
+print(y)
+print("Stack arrays horizontally:")
+print(hstack)
